@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+  transition: 1s;
+}
+
+h1 {
+  margin: 0px;
+  user-select: none;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.selection.responsive {
+  display: flex;
+}
+
+.selection .button {
+  width: 50%;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.black.button {
+  color: black;
+}
+
+.white.button {
+  color: white;
+}

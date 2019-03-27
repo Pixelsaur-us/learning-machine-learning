@@ -2,8 +2,35 @@
 <html lang="en">
   <head>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.15.3/dist/tf.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/imageslider.css">
   </head>
   <body>
+    <div class="container">
+      <div class="slider">
+        <div class="slider responsive">
+          <div class="left image">
+            <img src="img/quoteblack.png"/>
+          </div>
+          <div class="right image">
+            <img src="img/quotewhite.png"/>
+          </div>
+        </div>
+      </div>
+      <div class="selection">
+        <div class="selection responsive">
+          <div id="black" class="black button">
+            <h1>Black</h1>
+          </div>
+          <div id="white" class="white button">
+            <h1>White</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="prediction"></div>
+    <script src="js/imageslider.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
